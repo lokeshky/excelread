@@ -24,6 +24,7 @@ public class TestNGListenerDemo {
 		
 		driver.get("https://www.google.com");
 		driver.findElement(By.name("q")).sendKeys("abcd");
+		//driver.findElement(By.name("btnK")).click();
 		
 		driver.findElement(By.name("aaa")).sendKeys("wrong");
 		driver.close();
